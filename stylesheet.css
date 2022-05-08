@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.header > img {
+    max-width: 500px;
+    justify-self: center;
+}
+
+.header {
+    background-color: #f7f7f7;
+    width: 500px;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+h6,h2 {
+    text-align: center;
+}
+
+.header > h2 {
+    font-size: 1.7rem;
+    padding: 0;
+}
+
+.header > h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+.quiz {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-name {
+    color: #6c6c6c;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0.8rem;
+    width: 500px;
+    border: 1px solid #959595;
+    border-radius: 30px;
+}
+
+.quiz > h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.quiz > .link {
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.alternatives {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 14rem;
+    margin-top: 2rem;
+}
+
+li:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+li {
+    height: 25%;
+    background-color: #f7f7f7;
+    justify-self: center;
+    padding: 1rem;
+}
+
+li.clicked {
+    background: #ED6745;
+    color: #f7f7f7;
+    font-weight: 600;
+}
+
+li.clicked.correct {
+    background: #4AD3A8;
+    color: #212121;
+    font-weight: 600;
+}
+
+.status {
+    margin: 0;
+    margin-top: 3rem;
+}
+
+span.status-de-acerto {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.counter {
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 500px;
+    padding: 1.8rem;
+    border: 1px solid #6c6c6c;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+/* Java-script classAdd */
+
+.statusOne, .statusTwo{
+    display: none;
+}
+
+.inactive {
+    pointer-events: none;
+}
+
+.opacity{
+    opacity: 10%;
+}
+
+ol {
+    padding: 0%;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* .counter {
+    display: inline;
+} */
